@@ -16,7 +16,7 @@ const router = require('express').Router()
          })
  })
 
- //
+ //create new project (requires pname and pdescription)
  router.post('/', (req,res) => {
     db.add(req.body)
         .then(item => {
