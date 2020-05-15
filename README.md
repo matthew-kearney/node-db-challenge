@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+          A relational db has more than one table and SQL is a languege to talk to the tables
+
 - [ ] Why do tables need a `primary key`?
+
+          so that you can uniquely identify a row in a table
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+          a forgien key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+          a connecting table with a forgien key that refrences the primary key for the other tables
 
 ## Minimum Viable Product
 
@@ -63,12 +71,12 @@ Complete the following tasks:
   - [ ] when adding a `task` the client must provide the `id` of an existing project.
   - [ ] for `projects` and `tasks` if no value is provided for the `completed` property, the API should provide a default value of `false`.
 - [ ] Build an API with endpoints for:
-  - [ ] adding resources.
-  - [ ] retrieving a list of resources.
-  - [ ] adding projects.
-  - [ ] retrieving a list of projects.
-  - [ ] adding tasks.
-  - [ ] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
+  - [x] adding resources.
+  - [x] retrieving a list of resources.
+  - [x] adding projects.
+  - [x] retrieving a list of projects.
+  - [x] adding tasks.
+  - [x] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
 
 ### Entities
 
