@@ -63,8 +63,8 @@ Complete the following tasks:
   - [ ] when adding a `task` the client must provide the `id` of an existing project.
   - [ ] for `projects` and `tasks` if no value is provided for the `completed` property, the API should provide a default value of `false`.
 - [ ] Build an API with endpoints for:
-  - [ ] adding resources.
-  - [ ] retrieving a list of resources.
+  - [x] adding resources.
+  - [x] retrieving a list of resources.
   - [x] adding projects.
   - [x] retrieving a list of projects.
   - [ ] adding tasks.
